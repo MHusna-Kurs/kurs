@@ -10,6 +10,8 @@ namespace Alistirmalar
     {
         static void Main(string[] args)
         {
+
+
         }
 
         private static void kucukBuyukBul()
@@ -220,6 +222,61 @@ namespace Alistirmalar
             Console.WriteLine("Pozitif sayı adedi: " + pozitifAdet);
             Console.WriteLine("Pozitif sayı toplamı: " + pozitifToplam);
 
+            Console.ReadLine();
+        }
+
+        private static void faktoriyelBul()
+        {
+        yapi:
+            Console.Write("Bir sayı girin: ");
+            int sayi = Convert.ToInt32(Console.ReadLine());
+            int girilen = sayi;
+            int faktoriyel = 1;
+            if (sayi == 0 || sayi == 1)
+            {
+                Console.WriteLine(sayi + "!: " + faktoriyel + ".");
+                Console.WriteLine("Program sonlandı. Kapatmak için bir tuşa basınız...");
+            }
+
+            else if (sayi < 0)
+            {
+                Console.WriteLine("Yanlış değer girdiniz... Lütfen pozitif bir sayı girin.");
+                goto yapi;
+            }
+            else
+            {
+            faktoriyelAlma:
+                faktoriyel *= sayi;
+                sayi--;
+                if (sayi >= 1)
+                    goto faktoriyelAlma;
+                Console.WriteLine(girilen + "!: " + faktoriyel + ".");
+                Console.WriteLine("Program sonlandı. Kapatmak için bir tuşa basınız...");
+            }
+            Console.ReadLine();
+        }
+
+        private static void usAlma()
+        {
+            Console.Write("Tabanı giriniz: ");
+            int taban = Convert.ToInt32(Console.ReadLine());
+
+            Console.Write("Üssü giriniz: ");
+            int us = Convert.ToInt32(Console.ReadLine());
+            int orgUs = us;
+
+            int kuvvet = 1;
+            if (us == 0)
+                Console.WriteLine(taban + " ^ " + us + ": " + kuvvet);
+            else
+            {
+            usAlma:
+                kuvvet *= taban;
+                us--;
+                if (us >= 1)
+                    goto usAlma;
+                Console.WriteLine(taban + " ^ " + orgUs + ": " + kuvvet);
+            }
             Console.ReadLine();
         }
     }
