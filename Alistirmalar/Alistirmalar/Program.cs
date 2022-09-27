@@ -10,8 +10,7 @@ namespace Alistirmalar
     {
         static void Main(string[] args)
         {
-
-
+            
         }
 
         private static void kucukBuyukBul()
@@ -277,6 +276,64 @@ namespace Alistirmalar
                     goto usAlma;
                 Console.WriteLine(taban + " ^ " + orgUs + ": " + kuvvet);
             }
+            Console.ReadLine();
+        }
+
+        private static void aritmetikOrt()
+        {
+            int toplam = 0, giris = 0;
+            int sayi;
+
+        sayiAl:
+            Console.Write("Bir sayı girin: ");
+            sayi = Convert.ToInt32(Console.ReadLine());
+            giris++;
+
+            if (sayi > 0 && sayi <= 100)
+            {
+                toplam += sayi;
+            }
+            else
+            {
+                Console.WriteLine("Girilen sayı 0-100 aralığında değil...");
+                giris--;
+                goto sayiAl;
+            }
+            if (giris < 3)
+                goto sayiAl;
+            Console.WriteLine("Girilen sayıların aritmetik ortalaması: " + (double)((toplam) / giris));
+            Console.ReadLine();
+        }
+
+        private static void whileOrnek1()
+        {
+            Console.WriteLine("Birşey girin (Çıkmak için 'kapat' yazın): ");
+            string giris = Console.ReadLine();
+
+            while (giris.ToLower() != "kapat")
+            {
+                Console.WriteLine(giris);
+                Console.WriteLine("Birşey girin (Çıkmak için 'kapat' yazın): ");
+                giris = Console.ReadLine();
+            }
+        }
+
+        private static void whileOrnek2()
+        {
+            Console.Write("Bir sayı girin (Çıkmak için 'bitir'):");
+            string girilen = Console.ReadLine();
+            int toplam = 0;
+
+            while (girilen != "bitir")
+            {
+                int sayi = Convert.ToInt32(girilen);
+                toplam += sayi;
+                Console.Write("Bir sayı girin (Çıkmak için 'bitir'):");
+                girilen = Console.ReadLine();
+
+            }
+
+            Console.WriteLine("Toplam: " + toplam + ". Program bitti.");
             Console.ReadLine();
         }
     }
