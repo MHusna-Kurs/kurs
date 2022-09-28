@@ -1,0 +1,7 @@
+C:\mhk\kurs\Alistirmalar\Alistirma2\bin\Debug\Alistirma2.exe.config
+C:\mhk\kurs\Alistirmalar\Alistirma2\bin\Debug\Alistirma2.exe
+C:\mhk\kurs\Alistirmalar\Alistirma2\bin\Debug\Alistirma2.pdb
+C:\mhk\kurs\Alistirmalar\Alistirma2\obj\Debug\Alistirma2.csprojAssemblyReference.cache
+C:\mhk\kurs\Alistirmalar\Alistirma2\obj\Debug\Alistirma2.csproj.CoreCompileInputs.cache
+C:\mhk\kurs\Alistirmalar\Alistirma2\obj\Debug\Alistirma2.exe
+C:\mhk\kurs\Alistirmalar\Alistirma2\obj\Debug\Alistirma2.pdb

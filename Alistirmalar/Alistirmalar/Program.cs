@@ -10,7 +10,6 @@ namespace Alistirmalar
     {
         static void Main(string[] args)
         {
-            
         }
 
         private static void kucukBuyukBul()
@@ -321,19 +320,176 @@ namespace Alistirmalar
         private static void whileOrnek2()
         {
             Console.Write("Bir sayı girin (Çıkmak için 'bitir'):");
-            string girilen = Console.ReadLine();
+            string strGirilen = Console.ReadLine();
+            int intGirilen;
             int toplam = 0;
 
-            while (girilen != "bitir")
+            bool isNumber = int.TryParse(strGirilen, out intGirilen);
+
+            while (isNumber)
             {
-                int sayi = Convert.ToInt32(girilen);
-                toplam += sayi;
+                toplam += intGirilen;
                 Console.Write("Bir sayı girin (Çıkmak için 'bitir'):");
-                girilen = Console.ReadLine();
+                strGirilen = Console.ReadLine();
+                isNumber = int.TryParse(strGirilen, out intGirilen);
 
             }
-
             Console.WriteLine("Toplam: " + toplam + ". Program bitti.");
+            Console.ReadLine();
+        }
+
+        private static void ikiVeUc()
+        {
+            int i = 1;
+            string sonuc;
+            while (i <= 100)
+            {
+                if (i % 2 == 0)
+                    sonuc = i + " çifttir.";
+                else
+                    sonuc = i + " tektir";
+                if (i % 3 == 0)
+                    sonuc += " Ve üçe bölünebilir.";
+
+                Console.WriteLine(sonuc);
+                i++;
+            }
+
+            Console.ReadLine();
+        }
+
+        private static void sayiYaz()
+        {
+            int sayi = 1;
+
+        yapi:
+            Console.WriteLine(sayi);
+            sayi++;
+
+            if (sayi < 10)
+            {
+                if (sayi != 7)
+                {
+                    if (sayi == 9)
+                        sayi = sayi + 2;
+                    else
+                        goto yapi;
+                }
+                else
+                {
+                    sayi++;
+                    goto yapi;
+                }
+
+            }
+            Console.ReadLine();
+        }
+
+        private static void girisKontrol()
+        {
+            string mail;
+            string sifre;
+            bool dogruMu = false;
+
+            do
+            {
+                Console.Write("E-mail girin: ");
+                mail = Console.ReadLine();
+
+                Console.Write("Şifre girin: ");
+                sifre = Console.ReadLine();
+
+                if (mail == "smart@pro.net" && sifre == "SP123")
+                    dogruMu = true;
+
+            } while (dogruMu == false);
+
+            Console.WriteLine("Giriş başarılı.");
+            Console.ReadLine();
+        }
+
+        private static void araliktakileriYaz()
+        {
+            Console.Write("1. sayıyı girin: ");
+            int ilkSayi = Convert.ToInt32(Console.ReadLine());
+
+            Console.Write("2. sayıyı girin: ");
+            int ikinciSayi = Convert.ToInt32(Console.ReadLine());
+
+            if (ilkSayi > ikinciSayi)
+                for (int i = ikinciSayi; i <= ilkSayi; i++)
+                    Console.Write(i + " ");
+            else if (ikinciSayi > ilkSayi)
+                for (int i = ilkSayi; i <= ikinciSayi; i++)
+                    Console.Write(i + " ");
+            else
+                Console.WriteLine("İki sayı birbirine eşittir.");
+
+            Console.ReadLine();
+        }
+
+        private static void kdvliFiyatHesapla()
+        {
+            double toplamKdvli = 0;
+
+            for (int i = 1; i <= 5; i++)
+            {
+                Console.Write("Ürünün fiyatını girin: ");
+                double fiyat = Convert.ToDouble(Console.ReadLine());
+                double geciciKdvli = fiyat + (fiyat * 0.18);
+                Console.WriteLine("Kdv'li fiyat: " + geciciKdvli);
+                toplamKdvli += geciciKdvli;
+            }
+
+            Console.WriteLine("Toplam fiyat: " + toplamKdvli);
+            Console.ReadLine();
+        }
+
+        private static void degerAl()
+        {
+            int nToplam = 0, pToplam = 0, ucunToplamlari = 0;
+            int giris;
+            for (; ; )
+            {
+                try
+                {
+                    Console.Write("Sayı girin: ");
+                    giris = Convert.ToInt32(Console.ReadLine());
+                    if (giris == 0)
+                    {
+                        Console.WriteLine("Geçersiz sayı girdiniz...");
+                        break;
+                    }
+                    else if (giris == 34 || giris == -34)
+                    {
+                        Console.WriteLine("Geçersiz sayı girdiniz...");
+                        continue;
+                    }
+                    else if (giris > 0)
+                    {
+                        pToplam += giris;
+                        if (giris % 3 == 0)
+                            ucunToplamlari += giris;
+                    }
+                    else
+                    {
+                        nToplam += giris;
+                        if (giris % 3 == 0)
+                            ucunToplamlari += giris;
+                    }
+
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine("Hatalı giriş: " + e.Message);
+                }
+            }
+
+            Console.WriteLine("*******************************");
+            Console.WriteLine("Negatif sayıların toplamı: " + nToplam);
+            Console.WriteLine("Pozitif sayıların toplamı: " + pToplam);
+            Console.WriteLine("Üçün katlarının toplamı: " + ucunToplamlari);
+            Console.WriteLine("*******************************");
             Console.ReadLine();
         }
     }
