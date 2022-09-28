@@ -492,5 +492,22 @@ namespace Alistirmalar
             Console.WriteLine("*******************************");
             Console.ReadLine();
         }
+
+        private static void girilenleriBirlestir()
+        {
+            string girilenler = "";
+            for (; ; )
+            {
+                Console.Write("Yazılacak: ");
+                string girilen = Console.ReadLine();
+                if (girilen == "bitti")
+                    break;
+                else
+                    girilenler += "\n" + girilen;
+            }
+
+            Console.WriteLine(girilenler);
+            Console.ReadLine();
+        }
     }
 }
