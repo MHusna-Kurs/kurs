@@ -509,5 +509,277 @@ namespace Alistirmalar
             Console.WriteLine(girilenler);
             Console.ReadLine();
         }
+
+        private static void faktoriyel()
+        {
+            int fakToplam = 0;
+
+            for (int i = 1; i <= 10; i++)
+            {
+                int geciciFak = 1;
+                for (int j = 1; j <= i; j++)
+                    geciciFak *= j;
+
+                fakToplam += geciciFak;
+                Console.WriteLine(i + "!: " + geciciFak);
+            }
+
+            Console.WriteLine("Faktoriyellerin toplamı: " + fakToplam);
+            Console.ReadLine();
+        }
+
+        private static void kareBul()
+        {
+            int kareToplam = 0;
+
+            for (int i = 1; i <= 10; i++)
+            {
+                int kare = i * i;
+                kareToplam += kare;
+                Console.WriteLine(i + " * " + i + ": " + kare);
+            }
+            Console.WriteLine("Karelerin toplamı: " + kareToplam);
+            Console.ReadLine();
+        }
+
+        private static void rastgeleSayilar()
+        {
+
+            Random rastgele = new Random();
+            int[] dizi = new int[10];
+            for (int i = 0; i < dizi.Length; i++)
+            {
+                dizi[i] = rastgele.Next(0, 100);
+            }
+            Console.WriteLine("************************");
+            foreach (var sayi in dizi)
+            {
+                Console.WriteLine(sayi);
+            }
+            Console.ReadLine();
+        }
+
+        private static void diziKopyala()
+        {
+            int[] dizi1 = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+            int[] dizi2 = new int[10];
+            Array.Copy(dizi1, 3, dizi2, 1, 5);
+            foreach (int sayi in dizi2)
+            {
+                Console.Write(sayi + " ");
+            }
+            Console.ReadLine();
+        }
+
+        private static void matrisCiz()
+        {
+            int[,] dizi = new int[5, 5];
+            for (int i = 0; i < 5; i++)
+            {
+                for (int j = 0; j < 5; j++)
+                {
+                    if (j == 0 || j == 4)
+                        dizi[i, j] = 2;
+
+                }
+            }
+
+            for (int i = 0; i < 5; i++)
+            {
+                for (int j = 0; j < 5; j++)
+                {
+                    Console.Write(dizi[i, j] + " ");
+
+                }
+                Console.WriteLine();
+            }
+
+            Console.ReadLine();
+        }
+
+        private static void matrisCiz2()
+        {
+            int[,] dizi = new int[5, 5];
+            for (int i = 0; i < 5; i++)
+            {
+                for (int j = 0; j < 5; j++)
+                {
+                    if (i + j == 4)
+                        dizi[i, j] = 1;
+
+                }
+            }
+
+            for (int i = 0; i < 5; i++)
+            {
+                for (int j = 0; j < 5; j++)
+                {
+                    Console.Write(dizi[i, j] + " ");
+
+                }
+                Console.WriteLine();
+            }
+
+            Console.ReadLine();
+        }
+
+        private static void matrisCiz3()
+        {
+            int[,] dizi = new int[5, 5];
+            for (int i = 0; i < 5; i++)
+            {
+                for (int j = 0; j < 5; j++)
+                {
+                    if (i == j)
+                        dizi[i, j] = 1;
+
+                }
+            }
+
+            for (int i = 0; i < 5; i++)
+            {
+                for (int j = 0; j < 5; j++)
+                {
+                    Console.Write(dizi[i, j] + " ");
+
+                }
+                Console.WriteLine();
+            }
+
+            Console.ReadLine();
+        }
+
+        private static void matrisCiz4()
+        {
+            int[,] dizi = new int[5, 5];
+            for (int i = 0; i < 5; i++)
+            {
+                for (int j = 0; j < 5; j++)
+                {
+                    if (i == j || i + j == 4)
+                        dizi[i, j] = 1;
+
+                }
+            }
+
+            for (int i = 0; i < 5; i++)
+            {
+                for (int j = 0; j < 5; j++)
+                {
+                    Console.Write(dizi[i, j] + " ");
+
+                }
+                Console.WriteLine();
+            }
+
+            Console.ReadLine();
+        }
+
+        private static void listeler1()
+        {
+            List<int> liste1 = new List<int>();
+            List<int> liste2 = new List<int>();
+            List<int> ortakOlmayan = new List<int>();
+
+            Random rnd = new Random();
+
+            for (int i = 0; i < 5; i++)
+            {
+                liste1.Add(rnd.Next(10));
+                liste2.Add(rnd.Next(10));
+            }
+
+
+            for (int i = 0; i < 5; i++)
+            {
+                if (!(liste2.Contains(liste1[i])) && !ortakOlmayan.Contains(liste1[i]))
+                    ortakOlmayan.Add(liste1[i]);
+
+                if (!(liste1.Contains(liste2[i])) && !ortakOlmayan.Contains(liste2[i]))
+                    ortakOlmayan.Add(liste2[i]);
+            }
+
+            Console.WriteLine("**********************");
+            Console.WriteLine("LİSTE 1'IN ELEMANLARI");
+            foreach (var item in liste1)
+                Console.Write(item + " ");
+
+            Console.WriteLine();
+            Console.WriteLine("**********************");
+            Console.WriteLine("LİSTE 2'NIN ELEMANLARI");
+            foreach (var item in liste2)
+                Console.Write(item + " ");
+
+            Console.WriteLine();
+            Console.WriteLine("**********************");
+            Console.WriteLine("ORTAK OLMAYAN LİSTENİN ELEMANLARI");
+            foreach (var item in ortakOlmayan)
+                Console.Write(item + " ");
+
+            Console.ReadLine();
+        }
+
+        private static void listeler2()
+        {
+            List<int> liste = new List<int>();
+            Random rnd = new Random();
+            for (int i = 0; i < 20; i++)
+                liste.Add(rnd.Next(1, 20));
+
+            foreach (var item in liste)
+                Console.Write(item + " ");
+
+            Console.WriteLine();
+            Console.WriteLine("*********************");
+            Console.Write("Tahmininiz: ");
+            int tahmin = Convert.ToInt32(Console.ReadLine());
+
+            if (liste.Contains(tahmin))
+                Console.WriteLine(tahmin + " sayısının indexi: " + liste.IndexOf(tahmin));
+
+            else
+                Console.WriteLine("Sayı bulunamadı.");
+
+
+            Console.ReadLine();
+        }
+
+        private static void odev1()
+        {
+            Random rnd = new Random();
+            int randomSayi = rnd.Next(0, 1000);
+            Console.WriteLine(randomSayi);
+
+            int tahminSayisi = 0;
+            int[] tahminler = new int[15];
+            bool bulunduMu = false;
+
+            do
+            {
+                Console.Write("Tahmininiz: ");
+                int tahmin = Convert.ToInt32(Console.ReadLine());
+                tahminler[tahminSayisi] = tahmin;
+
+                if (tahmin < randomSayi)
+                    Console.WriteLine("Düşük sayı girdiniz. Daha yüksek bir sayı girin...");
+                else if (tahmin > randomSayi)
+                    Console.WriteLine("Büyük sayı girdiniz. Daha küçük bir sayı girin...");
+                else
+                {
+                    bulunduMu = true;
+                    Console.WriteLine("Tebrikler !! Bildiniz.... ");
+                    foreach (int sayi in tahminler)
+                    {
+                        Console.Write(sayi + " - ");
+                    }
+                    break;
+                }
+
+                tahminSayisi++;
+            } while (tahminSayisi < 15);
+
+            if (!bulunduMu)
+                Console.WriteLine("Tahmin haklarınız doldu... 15 hak içerisinde sayıyı bulamadınız.");
+        }
     }
 }
