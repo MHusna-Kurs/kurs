@@ -768,6 +768,7 @@ namespace Alistirmalar
                 {
                     bulunduMu = true;
                     Console.WriteLine("Tebrikler !! Bildiniz.... ");
+                    Console.Write("Tahminler: ");
                     foreach (int sayi in tahminler)
                     {
                         Console.Write(sayi + " - ");
@@ -781,5 +782,136 @@ namespace Alistirmalar
             if (!bulunduMu)
                 Console.WriteLine("Tahmin haklarınız doldu... 15 hak içerisinde sayıyı bulamadınız.");
         }
+
+        private static void diziUret()
+        {
+            int[] dizi = new int[5];
+
+            for (int i = 0; i < dizi.Length; i++)
+                dizi[i] = (i + 1) * 10;
+
+            foreach (int sayi in dizi)
+                Console.Write(sayi + " ");
+
+            Console.ReadLine();
+        }
+
+        private static void elemanIndexBul()
+        {
+            string[] sehirler = { "Adana", "Adıyaman", "Afyon", "Ağrı", "Amasya", "Ankara", "Adıyaman" };
+            List<int> indexPositions = new List<int>();
+            int index = 0;
+
+            foreach (var sehir in sehirler)
+            {
+                if (sehir == "Adıyaman")
+                    indexPositions.Add(index);
+                index++;
+            }
+
+            Console.Write("Indexler: ");
+            foreach (var item in indexPositions)
+                Console.Write(item + " - ");
+
+
+            Console.ReadLine();
+
+        }
+
+        private static void randomMatrisOlustur()
+        {
+            int[,] matris = new int[2, 3];
+            Random rnd = new Random();
+
+            for (int i = 0; i < 2; i++)
+            {
+                for (int j = 0; j < 3; j++)
+                    matris[i, j] = rnd.Next(1, 15);
+            }
+
+            for (int i = 0; i < 2; i++)
+            {
+                for (int j = 0; j < 3; j++)
+                    Console.Write(string.Format("{0, 2}", matris[i, j]) + " ");
+
+                Console.WriteLine();
+            }
+
+            Console.ReadLine();
+        }
+
+        private static void matrisOlustur()
+        {
+            Console.WriteLine("*************************************");
+            Console.WriteLine("*************ÖRNEK 1*****************");
+            Console.WriteLine("*************************************");
+            int[,] matris = new int[5, 5];
+
+            for (int i = 0; i < 5; i++)
+            {
+                for (int j = 0; j < 5; j++)
+                {
+                    if (((j == i) || (i + j == 4)) && (j >= 2))
+                        Console.Write(1);
+                    else
+                        Console.Write(0);
+                }
+                Console.WriteLine();
+            }
+            Console.ReadLine();
+
+            Console.WriteLine("*************************************");
+            Console.WriteLine("*************ÖRNEK 2*****************");
+            Console.WriteLine("*************************************");
+
+            for (int i = 0; i < 5; i++)
+            {
+                for (int j = 0; j < 5; j++)
+                {
+                    if (i < 4 && j < 4)
+                        Console.Write(1);
+                    else
+                        Console.Write(0);
+                }
+                Console.WriteLine();
+            }
+            Console.ReadLine();
+
+            Console.WriteLine("*************************************");
+            Console.WriteLine("*************ÖRNEK 3*****************");
+            Console.WriteLine("*************************************");
+            for (int i = 0; i < 5; i++)
+            {
+                for (int j = 0; j < 5; j++)
+                {
+                    if (i == 0 || i == 4 || j == 0 || j == 4)
+                        Console.Write(1);
+                    else
+                        Console.Write(0);
+                }
+                Console.WriteLine();
+            }
+            Console.ReadLine();
+        }
+
+        private static void isimAlVeSirala()
+        {
+            List<string> isimler = new List<string>();
+            int i = 0;
+            do
+            {
+                Console.Write("İsim: ");
+                isimler.Add(Console.ReadLine());
+                i++;
+            } while (i < 5);
+
+            isimler.Sort();
+            foreach (var item in isimler)
+                Console.Write(item + " ");
+
+            Console.ReadLine();
+
+        }
+        
     }
 }
