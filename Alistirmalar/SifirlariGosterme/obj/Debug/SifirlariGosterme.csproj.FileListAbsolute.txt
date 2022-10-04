@@ -1,0 +1,6 @@
+C:\mhk\kurs\Alistirmalar\SifirlariGosterme\bin\Debug\SifirlariGosterme.exe.config
+C:\mhk\kurs\Alistirmalar\SifirlariGosterme\bin\Debug\SifirlariGosterme.exe
+C:\mhk\kurs\Alistirmalar\SifirlariGosterme\bin\Debug\SifirlariGosterme.pdb
+C:\mhk\kurs\Alistirmalar\SifirlariGosterme\obj\Debug\SifirlariGosterme.csproj.CoreCompileInputs.cache
+C:\mhk\kurs\Alistirmalar\SifirlariGosterme\obj\Debug\SifirlariGosterme.exe
+C:\mhk\kurs\Alistirmalar\SifirlariGosterme\obj\Debug\SifirlariGosterme.pdb

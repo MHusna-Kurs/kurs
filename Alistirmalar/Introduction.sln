@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RastgeleSayiUret", "Uygulam
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yazdir", "Yazdir\Yazdir.csproj", "{08BAF56B-5EB0-4337-A956-B4420B8A9E52}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SifirlariGosterme", "SifirlariGosterme\SifirlariGosterme.csproj", "{99E494D5-A28A-430A-80C7-3091C61C9855}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TekSayilariDondur", "TekSayilariDondur\TekSayilariDondur.csproj", "{418A042F-8623-46E3-A262-A8C9A0030DF9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{08BAF56B-5EB0-4337-A956-B4420B8A9E52}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{08BAF56B-5EB0-4337-A956-B4420B8A9E52}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{08BAF56B-5EB0-4337-A956-B4420B8A9E52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99E494D5-A28A-430A-80C7-3091C61C9855}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99E494D5-A28A-430A-80C7-3091C61C9855}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99E494D5-A28A-430A-80C7-3091C61C9855}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99E494D5-A28A-430A-80C7-3091C61C9855}.Release|Any CPU.Build.0 = Release|Any CPU
+		{418A042F-8623-46E3-A262-A8C9A0030DF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{418A042F-8623-46E3-A262-A8C9A0030DF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{418A042F-8623-46E3-A262-A8C9A0030DF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{418A042F-8623-46E3-A262-A8C9A0030DF9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

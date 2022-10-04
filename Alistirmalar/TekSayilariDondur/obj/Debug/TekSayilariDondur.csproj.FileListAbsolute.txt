@@ -1,0 +1,7 @@
+C:\mhk\kurs\Alistirmalar\TekSayilariDondur\bin\Debug\TekSayilariDondur.exe.config
+C:\mhk\kurs\Alistirmalar\TekSayilariDondur\bin\Debug\TekSayilariDondur.exe
+C:\mhk\kurs\Alistirmalar\TekSayilariDondur\bin\Debug\TekSayilariDondur.pdb
+C:\mhk\kurs\Alistirmalar\TekSayilariDondur\obj\Debug\TekSayilariDondur.csprojAssemblyReference.cache
+C:\mhk\kurs\Alistirmalar\TekSayilariDondur\obj\Debug\TekSayilariDondur.csproj.CoreCompileInputs.cache
+C:\mhk\kurs\Alistirmalar\TekSayilariDondur\obj\Debug\TekSayilariDondur.exe
+C:\mhk\kurs\Alistirmalar\TekSayilariDondur\obj\Debug\TekSayilariDondur.pdb
