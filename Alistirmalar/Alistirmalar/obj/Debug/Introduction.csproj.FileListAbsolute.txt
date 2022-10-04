@@ -1,6 +1,7 @@
 C:\mhk\kurs\Alistirmalar\Alistirmalar\bin\Debug\Alistirmalar.exe.config
 C:\mhk\kurs\Alistirmalar\Alistirmalar\bin\Debug\Alistirmalar.exe
 C:\mhk\kurs\Alistirmalar\Alistirmalar\bin\Debug\Alistirmalar.pdb
+C:\mhk\kurs\Alistirmalar\Alistirmalar\obj\Debug\Introduction.csprojAssemblyReference.cache
 C:\mhk\kurs\Alistirmalar\Alistirmalar\obj\Debug\Introduction.csproj.CoreCompileInputs.cache
 C:\mhk\kurs\Alistirmalar\Alistirmalar\obj\Debug\Alistirmalar.exe
 C:\mhk\kurs\Alistirmalar\Alistirmalar\obj\Debug\Alistirmalar.pdb

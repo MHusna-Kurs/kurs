@@ -1,6 +1,7 @@
 C:\mhk\kurs\Alistirmalar\Yazdir\bin\Debug\Yazdir.exe.config
 C:\mhk\kurs\Alistirmalar\Yazdir\bin\Debug\Yazdir.exe
 C:\mhk\kurs\Alistirmalar\Yazdir\bin\Debug\Yazdir.pdb
+C:\mhk\kurs\Alistirmalar\Yazdir\obj\Debug\Yazdir.csprojAssemblyReference.cache
 C:\mhk\kurs\Alistirmalar\Yazdir\obj\Debug\Yazdir.csproj.CoreCompileInputs.cache
 C:\mhk\kurs\Alistirmalar\Yazdir\obj\Debug\Yazdir.exe
 C:\mhk\kurs\Alistirmalar\Yazdir\obj\Debug\Yazdir.pdb
