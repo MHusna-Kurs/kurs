@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TekSayilariDondur", "TekSay
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinMaxBul", "MinMaxBul\MinMaxBul.csproj", "{6F1AF031-C60B-4915-B00A-0B46A9ADF99E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KareleriDondur", "KareleriDondur\KareleriDondur.csproj", "{AE505C10-161D-4433-B199-6BF31A7D43BB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{6F1AF031-C60B-4915-B00A-0B46A9ADF99E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6F1AF031-C60B-4915-B00A-0B46A9ADF99E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6F1AF031-C60B-4915-B00A-0B46A9ADF99E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE505C10-161D-4433-B199-6BF31A7D43BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE505C10-161D-4433-B199-6BF31A7D43BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE505C10-161D-4433-B199-6BF31A7D43BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE505C10-161D-4433-B199-6BF31A7D43BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

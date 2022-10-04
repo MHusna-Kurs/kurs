@@ -1,0 +1,7 @@
+C:\mhk\kurs\Alistirmalar\KareleriDondur\bin\Debug\KareleriDondur.exe.config
+C:\mhk\kurs\Alistirmalar\KareleriDondur\bin\Debug\KareleriDondur.exe
+C:\mhk\kurs\Alistirmalar\KareleriDondur\bin\Debug\KareleriDondur.pdb
+C:\mhk\kurs\Alistirmalar\KareleriDondur\obj\Debug\KareleriDondur.csproj.CoreCompileInputs.cache
+C:\mhk\kurs\Alistirmalar\KareleriDondur\obj\Debug\KareleriDondur.exe
+C:\mhk\kurs\Alistirmalar\KareleriDondur\obj\Debug\KareleriDondur.pdb
+C:\mhk\kurs\Alistirmalar\KareleriDondur\obj\Debug\KareleriDondur.csprojAssemblyReference.cache
