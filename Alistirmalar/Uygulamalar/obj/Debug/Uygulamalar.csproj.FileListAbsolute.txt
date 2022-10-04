@@ -1,0 +1,7 @@
+C:\mhk\kurs\Alistirmalar\Uygulamalar\bin\Debug\Uygulamalar.exe.config
+C:\mhk\kurs\Alistirmalar\Uygulamalar\bin\Debug\Uygulamalar.exe
+C:\mhk\kurs\Alistirmalar\Uygulamalar\bin\Debug\Uygulamalar.pdb
+C:\mhk\kurs\Alistirmalar\Uygulamalar\obj\Debug\Uygulamalar.csprojAssemblyReference.cache
+C:\mhk\kurs\Alistirmalar\Uygulamalar\obj\Debug\Uygulamalar.csproj.CoreCompileInputs.cache
+C:\mhk\kurs\Alistirmalar\Uygulamalar\obj\Debug\Uygulamalar.exe
+C:\mhk\kurs\Alistirmalar\Uygulamalar\obj\Debug\Uygulamalar.pdb
