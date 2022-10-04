@@ -25,6 +25,7 @@ namespace TekSayilariDondur
 
             Console.ReadLine();
         }
+
         private static int[] TekSayilariDondur(int[] sayilar, int[] tekSayilar)
         {
             int j = 0;

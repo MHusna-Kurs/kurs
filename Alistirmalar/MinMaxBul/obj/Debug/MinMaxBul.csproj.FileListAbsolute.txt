@@ -1,0 +1,7 @@
+C:\mhk\kurs\Alistirmalar\MinMaxBul\bin\Debug\MinMaxBul.exe.config
+C:\mhk\kurs\Alistirmalar\MinMaxBul\bin\Debug\MinMaxBul.exe
+C:\mhk\kurs\Alistirmalar\MinMaxBul\bin\Debug\MinMaxBul.pdb
+C:\mhk\kurs\Alistirmalar\MinMaxBul\obj\Debug\MinMaxBul.csproj.CoreCompileInputs.cache
+C:\mhk\kurs\Alistirmalar\MinMaxBul\obj\Debug\MinMaxBul.exe
+C:\mhk\kurs\Alistirmalar\MinMaxBul\obj\Debug\MinMaxBul.pdb
+C:\mhk\kurs\Alistirmalar\MinMaxBul\obj\Debug\MinMaxBul.csprojAssemblyReference.cache
