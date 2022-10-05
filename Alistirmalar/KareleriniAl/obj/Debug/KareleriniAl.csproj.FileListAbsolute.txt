@@ -1,0 +1,6 @@
+C:\mhk\kurs\Alistirmalar\KareleriniAl\bin\Debug\KareleriniAl.exe.config
+C:\mhk\kurs\Alistirmalar\KareleriniAl\bin\Debug\KareleriniAl.exe
+C:\mhk\kurs\Alistirmalar\KareleriniAl\bin\Debug\KareleriniAl.pdb
+C:\mhk\kurs\Alistirmalar\KareleriniAl\obj\Debug\KareleriniAl.csproj.CoreCompileInputs.cache
+C:\mhk\kurs\Alistirmalar\KareleriniAl\obj\Debug\KareleriniAl.exe
+C:\mhk\kurs\Alistirmalar\KareleriniAl\obj\Debug\KareleriniAl.pdb

@@ -1,0 +1,6 @@
+C:\mhk\kurs\Alistirmalar\ListToString\bin\Debug\ListToString.exe.config
+C:\mhk\kurs\Alistirmalar\ListToString\bin\Debug\ListToString.exe
+C:\mhk\kurs\Alistirmalar\ListToString\bin\Debug\ListToString.pdb
+C:\mhk\kurs\Alistirmalar\ListToString\obj\Debug\ListToString.csproj.CoreCompileInputs.cache
+C:\mhk\kurs\Alistirmalar\ListToString\obj\Debug\ListToString.exe
+C:\mhk\kurs\Alistirmalar\ListToString\obj\Debug\ListToString.pdb

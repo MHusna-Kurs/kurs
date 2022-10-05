@@ -1,0 +1,6 @@
+C:\mhk\kurs\Alistirmalar\DenemeProjesi\bin\Debug\DenemeProjesi.exe.config
+C:\mhk\kurs\Alistirmalar\DenemeProjesi\bin\Debug\DenemeProjesi.exe
+C:\mhk\kurs\Alistirmalar\DenemeProjesi\bin\Debug\DenemeProjesi.pdb
+C:\mhk\kurs\Alistirmalar\DenemeProjesi\obj\Debug\DenemeProjesi.csproj.CoreCompileInputs.cache
+C:\mhk\kurs\Alistirmalar\DenemeProjesi\obj\Debug\DenemeProjesi.exe
+C:\mhk\kurs\Alistirmalar\DenemeProjesi\obj\Debug\DenemeProjesi.pdb

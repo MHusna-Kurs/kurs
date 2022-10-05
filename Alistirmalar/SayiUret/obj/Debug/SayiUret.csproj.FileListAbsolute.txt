@@ -1,0 +1,7 @@
+C:\mhk\kurs\Alistirmalar\SayiUret\bin\Debug\SayiUret.exe.config
+C:\mhk\kurs\Alistirmalar\SayiUret\bin\Debug\SayiUret.exe
+C:\mhk\kurs\Alistirmalar\SayiUret\bin\Debug\SayiUret.pdb
+C:\mhk\kurs\Alistirmalar\SayiUret\obj\Debug\SayiUret.csprojAssemblyReference.cache
+C:\mhk\kurs\Alistirmalar\SayiUret\obj\Debug\SayiUret.csproj.CoreCompileInputs.cache
+C:\mhk\kurs\Alistirmalar\SayiUret\obj\Debug\SayiUret.exe
+C:\mhk\kurs\Alistirmalar\SayiUret\obj\Debug\SayiUret.pdb

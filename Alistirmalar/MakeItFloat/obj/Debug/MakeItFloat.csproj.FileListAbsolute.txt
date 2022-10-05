@@ -1,0 +1,6 @@
+C:\mhk\kurs\Alistirmalar\MakeItFloat\bin\Debug\MakeItFloat.exe.config
+C:\mhk\kurs\Alistirmalar\MakeItFloat\bin\Debug\MakeItFloat.exe
+C:\mhk\kurs\Alistirmalar\MakeItFloat\bin\Debug\MakeItFloat.pdb
+C:\mhk\kurs\Alistirmalar\MakeItFloat\obj\Debug\MakeItFloat.csproj.CoreCompileInputs.cache
+C:\mhk\kurs\Alistirmalar\MakeItFloat\obj\Debug\MakeItFloat.exe
+C:\mhk\kurs\Alistirmalar\MakeItFloat\obj\Debug\MakeItFloat.pdb

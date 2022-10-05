@@ -1,0 +1,7 @@
+C:\mhk\kurs\Alistirmalar\IkiSayiBirIslem\bin\Debug\IkiSayiBirIslem.exe.config
+C:\mhk\kurs\Alistirmalar\IkiSayiBirIslem\bin\Debug\IkiSayiBirIslem.exe
+C:\mhk\kurs\Alistirmalar\IkiSayiBirIslem\bin\Debug\IkiSayiBirIslem.pdb
+C:\mhk\kurs\Alistirmalar\IkiSayiBirIslem\obj\Debug\IkiSayiBirIslem.csprojAssemblyReference.cache
+C:\mhk\kurs\Alistirmalar\IkiSayiBirIslem\obj\Debug\IkiSayiBirIslem.csproj.CoreCompileInputs.cache
+C:\mhk\kurs\Alistirmalar\IkiSayiBirIslem\obj\Debug\IkiSayiBirIslem.exe
+C:\mhk\kurs\Alistirmalar\IkiSayiBirIslem\obj\Debug\IkiSayiBirIslem.pdb
