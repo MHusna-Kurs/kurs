@@ -1,0 +1,7 @@
+C:\mhk\kurs\Alistirmalar\DatetimeCalismalar\bin\Debug\DatetimeCalismalar.exe.config
+C:\mhk\kurs\Alistirmalar\DatetimeCalismalar\bin\Debug\DatetimeCalismalar.exe
+C:\mhk\kurs\Alistirmalar\DatetimeCalismalar\bin\Debug\DatetimeCalismalar.pdb
+C:\mhk\kurs\Alistirmalar\DatetimeCalismalar\obj\Debug\DatetimeCalismalar.csproj.CoreCompileInputs.cache
+C:\mhk\kurs\Alistirmalar\DatetimeCalismalar\obj\Debug\DatetimeCalismalar.exe
+C:\mhk\kurs\Alistirmalar\DatetimeCalismalar\obj\Debug\DatetimeCalismalar.pdb
+C:\mhk\kurs\Alistirmalar\DatetimeCalismalar\obj\Debug\DatetimeCalismalar.csprojAssemblyReference.cache

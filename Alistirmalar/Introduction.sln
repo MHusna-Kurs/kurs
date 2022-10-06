@@ -31,6 +31,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MakeItFloat", "MakeItFloat\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KareleriniAl", "KareleriniAl\KareleriniAl.csproj", "{11AE977E-967F-4B85-A960-B2533DF7EE7E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParamsCalismalar", "ParamsCalismalar\ParamsCalismalar.csproj", "{EC6BD42B-DCB6-4072-B766-2AE664DA9BB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatetimeCalismalar", "DatetimeCalismalar\DatetimeCalismalar.csproj", "{1F90BDD2-91F3-4976-AF25-BE861DE800FA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +97,14 @@ Global
 		{11AE977E-967F-4B85-A960-B2533DF7EE7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11AE977E-967F-4B85-A960-B2533DF7EE7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11AE977E-967F-4B85-A960-B2533DF7EE7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC6BD42B-DCB6-4072-B766-2AE664DA9BB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC6BD42B-DCB6-4072-B766-2AE664DA9BB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC6BD42B-DCB6-4072-B766-2AE664DA9BB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC6BD42B-DCB6-4072-B766-2AE664DA9BB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F90BDD2-91F3-4976-AF25-BE861DE800FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F90BDD2-91F3-4976-AF25-BE861DE800FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F90BDD2-91F3-4976-AF25-BE861DE800FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F90BDD2-91F3-4976-AF25-BE861DE800FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
