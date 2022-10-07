@@ -1,0 +1,7 @@
+C:\mhk\kurs\Alistirmalar\SayiTahmini\bin\Debug\SayiTahmini.exe.config
+C:\mhk\kurs\Alistirmalar\SayiTahmini\bin\Debug\SayiTahmini.exe
+C:\mhk\kurs\Alistirmalar\SayiTahmini\bin\Debug\SayiTahmini.pdb
+C:\mhk\kurs\Alistirmalar\SayiTahmini\obj\Debug\SayiTahmini.csprojAssemblyReference.cache
+C:\mhk\kurs\Alistirmalar\SayiTahmini\obj\Debug\SayiTahmini.csproj.CoreCompileInputs.cache
+C:\mhk\kurs\Alistirmalar\SayiTahmini\obj\Debug\SayiTahmini.exe
+C:\mhk\kurs\Alistirmalar\SayiTahmini\obj\Debug\SayiTahmini.pdb

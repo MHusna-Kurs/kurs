@@ -10,6 +10,7 @@ namespace DenemeProjesi
     {
         static void Main(string[] args)
         {
+
         }
     }
 }

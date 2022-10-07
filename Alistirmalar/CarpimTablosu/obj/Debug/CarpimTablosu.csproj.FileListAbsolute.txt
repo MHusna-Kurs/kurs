@@ -1,0 +1,7 @@
+C:\mhk\kurs\Alistirmalar\CarpimTablosu\bin\Debug\CarpimTablosu.exe.config
+C:\mhk\kurs\Alistirmalar\CarpimTablosu\bin\Debug\CarpimTablosu.exe
+C:\mhk\kurs\Alistirmalar\CarpimTablosu\bin\Debug\CarpimTablosu.pdb
+C:\mhk\kurs\Alistirmalar\CarpimTablosu\obj\Debug\CarpimTablosu.csprojAssemblyReference.cache
+C:\mhk\kurs\Alistirmalar\CarpimTablosu\obj\Debug\CarpimTablosu.csproj.CoreCompileInputs.cache
+C:\mhk\kurs\Alistirmalar\CarpimTablosu\obj\Debug\CarpimTablosu.exe
+C:\mhk\kurs\Alistirmalar\CarpimTablosu\obj\Debug\CarpimTablosu.pdb

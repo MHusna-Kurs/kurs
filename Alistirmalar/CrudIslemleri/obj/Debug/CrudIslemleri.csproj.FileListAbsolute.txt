@@ -1,0 +1,7 @@
+C:\mhk\kurs\Alistirmalar\CrudIslemleri\bin\Debug\CrudIslemleri.exe.config
+C:\mhk\kurs\Alistirmalar\CrudIslemleri\bin\Debug\CrudIslemleri.exe
+C:\mhk\kurs\Alistirmalar\CrudIslemleri\bin\Debug\CrudIslemleri.pdb
+C:\mhk\kurs\Alistirmalar\CrudIslemleri\obj\Debug\CrudIslemleri.csproj.CoreCompileInputs.cache
+C:\mhk\kurs\Alistirmalar\CrudIslemleri\obj\Debug\CrudIslemleri.exe
+C:\mhk\kurs\Alistirmalar\CrudIslemleri\obj\Debug\CrudIslemleri.pdb
+C:\mhk\kurs\Alistirmalar\CrudIslemleri\obj\Debug\CrudIslemleri.csprojAssemblyReference.cache

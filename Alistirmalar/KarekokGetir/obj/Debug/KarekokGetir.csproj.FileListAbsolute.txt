@@ -1,0 +1,7 @@
+C:\mhk\kurs\Alistirmalar\KarekokGetir\bin\Debug\KarekokGetir.exe.config
+C:\mhk\kurs\Alistirmalar\KarekokGetir\bin\Debug\KarekokGetir.exe
+C:\mhk\kurs\Alistirmalar\KarekokGetir\bin\Debug\KarekokGetir.pdb
+C:\mhk\kurs\Alistirmalar\KarekokGetir\obj\Debug\KarekokGetir.csproj.CoreCompileInputs.cache
+C:\mhk\kurs\Alistirmalar\KarekokGetir\obj\Debug\KarekokGetir.exe
+C:\mhk\kurs\Alistirmalar\KarekokGetir\obj\Debug\KarekokGetir.pdb
+C:\mhk\kurs\Alistirmalar\KarekokGetir\obj\Debug\KarekokGetir.csprojAssemblyReference.cache

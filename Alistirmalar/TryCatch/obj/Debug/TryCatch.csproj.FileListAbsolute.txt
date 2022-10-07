@@ -1,0 +1,6 @@
+C:\mhk\kurs\Alistirmalar\TryCatch\bin\Debug\TryCatch.exe.config
+C:\mhk\kurs\Alistirmalar\TryCatch\bin\Debug\TryCatch.exe
+C:\mhk\kurs\Alistirmalar\TryCatch\bin\Debug\TryCatch.pdb
+C:\mhk\kurs\Alistirmalar\TryCatch\obj\Debug\TryCatch.csproj.CoreCompileInputs.cache
+C:\mhk\kurs\Alistirmalar\TryCatch\obj\Debug\TryCatch.exe
+C:\mhk\kurs\Alistirmalar\TryCatch\obj\Debug\TryCatch.pdb

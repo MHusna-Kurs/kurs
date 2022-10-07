@@ -1,0 +1,7 @@
+C:\mhk\kurs\Alistirmalar\YildizlardanUcgen\bin\Debug\YildizlardanUcgen.exe.config
+C:\mhk\kurs\Alistirmalar\YildizlardanUcgen\bin\Debug\YildizlardanUcgen.exe
+C:\mhk\kurs\Alistirmalar\YildizlardanUcgen\bin\Debug\YildizlardanUcgen.pdb
+C:\mhk\kurs\Alistirmalar\YildizlardanUcgen\obj\Debug\YildizlardanUcgen.csprojAssemblyReference.cache
+C:\mhk\kurs\Alistirmalar\YildizlardanUcgen\obj\Debug\YildizlardanUcgen.csproj.CoreCompileInputs.cache
+C:\mhk\kurs\Alistirmalar\YildizlardanUcgen\obj\Debug\YildizlardanUcgen.exe
+C:\mhk\kurs\Alistirmalar\YildizlardanUcgen\obj\Debug\YildizlardanUcgen.pdb
