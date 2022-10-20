@@ -26,30 +26,39 @@ namespace _19_10_2022_YasHesapla
             int month;
             int day;
 
-            if(dtpPicker.Month > now.Month) {
-                year = (now.Year - dtpPicker.Year) -1;
-                month = (now.Month - dtpPicker.Month) + 12;
-            }
-            else
+            if(now.Day >= dtpPicker.Day)
             {
-                year = (now.Year - dtpPicker.Year);
-                month = (now.Month - dtpPicker.Month);
-            }
-
-            if (now.Day > dtpPicker.Day)
-            {
-                month = now.Month - dtpPicker.Month;
                 day = now.Day - dtpPicker.Day;
+                if (now.Month >= dtpPicker.Month)
+                {
+                    month = now.Month - dtpPicker.Month;
+                    year = now.Year - dtpPicker.Year;
+                }
+                else
+                {
+                    month = (now.Month - dtpPicker.Month) + 12;
+                    year = (now.Year - dtpPicker.Year) - 1;
+                }
             }
             else
             {
-                month = (now.Month - dtpPicker.Month) - 1;
-                day = (now.Day - dtpPicker.Day) + 30;
+                day = (now.Day - dtpPicker.Day) + Convert.ToInt32(DateTime.DaysInMonth(now.Year, (now.Month + 1)));
+                if (now.Month >= dtpPicker.Month)
+                {
+                    month = (now.Month - dtpPicker.Month) - 1;
+                    year = now.Year - dtpPicker.Year;
+                }
+                else
+                {
+                    month = (now.Month - dtpPicker.Month) + 11;
+                    year = (now.Year - dtpPicker.Year) - 1;
+                }
             }
 
-            lblResult.Text = Convert.ToString("Yıl: "+year+
-                                              " Ay: "+month+
-                                              " Gün: "+ day);
+            lblResult.Text = Convert.ToString("Yıl: " + year +
+                                              " Ay: " + month +
+                                              " Gün: " + day);
+
         }
     }
 }
