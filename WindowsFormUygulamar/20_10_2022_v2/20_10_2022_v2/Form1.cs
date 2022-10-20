@@ -92,6 +92,5 @@ namespace _20_10_2022_v2
             
             dataReader.Close();
         }
-        
     }
 }

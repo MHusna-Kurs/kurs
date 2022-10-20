@@ -64,6 +64,7 @@
             this.dgvOgrenci.Location = new System.Drawing.Point(12, 153);
             this.dgvOgrenci.Name = "dgvOgrenci";
             this.dgvOgrenci.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.dgvOgrenci.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvOgrenci.Size = new System.Drawing.Size(585, 164);
             this.dgvOgrenci.TabIndex = 0;
             // 
