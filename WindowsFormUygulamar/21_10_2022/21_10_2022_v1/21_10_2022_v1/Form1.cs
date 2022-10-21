@@ -20,19 +20,17 @@ namespace _21_10_2022_v1
         private void btnGet_Click(object sender, EventArgs e)
         {
             lbxMultiplyTable.Items.Clear();
+            string strNumber = cmbNumbers.Text;
 
-            //int sayi = cmbNumbers.SelectedIndex + 1;
-            int sayi = Convert.ToInt32(cmbNumbers.Text);
-
-            if(sayi != -1)
+            if(strNumber != "")
             {
+                int intNumber = Convert.ToInt32(strNumber);
+
                 for (int i = 1; i <= 10; i++)
-                    lbxMultiplyTable.Items.Add(sayi + "x" + i + ": " + (i * sayi));
+                    lbxMultiplyTable.Items.Add(intNumber + "x" + i + ": " + (i * intNumber));
             }
             else
-            {
                 MessageBox.Show("Bir değer seçiniz !!!");
-            }
             
         }
     }
